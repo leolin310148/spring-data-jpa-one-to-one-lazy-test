@@ -6,7 +6,7 @@ Testing lazy behavior of Spring Data JPA
 docker-compose up -d
 ```
 ```
-./gradlew bootRun # first time for inserting book
+./gradlew clean bootRun # first time for inserting book
 ./gradlew bootRun # see the results
 ```    
      

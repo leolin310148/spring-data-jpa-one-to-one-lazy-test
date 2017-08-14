@@ -2,6 +2,6 @@ baoku-dev-mysql:
   image: mysql
   environment:
     - MYSQL_ROOT_PASSWORD=ro@t
-    - MYSQL_DATABASE=bookV2-store
+    - MYSQL_DATABASE=book-store
   ports:
     - 13306:3306
