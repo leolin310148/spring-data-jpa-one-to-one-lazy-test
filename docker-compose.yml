@@ -1,0 +1,7 @@
+baoku-dev-mysql:
+  image: mysql
+  environment:
+    - MYSQL_ROOT_PASSWORD=ro@t
+    - MYSQL_DATABASE=bookV2-store
+  ports:
+    - 13306:3306
